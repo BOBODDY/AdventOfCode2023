@@ -12,21 +12,6 @@ fun main() {
         return calibration.sum()
     }
 
-    fun Int.toWord(): String {
-        return when (this) {
-            1 -> "one"
-            2 -> "two"
-            3 -> "three"
-            4 -> "four"
-            5 -> "five"
-            6 -> "six"
-            7 -> "seven"
-            8 -> "eight"
-            9 -> "nine"
-            else -> ""
-        }
-    }
-
     fun part2(input: List<String>): Int {
         /*
         First attempt returns 54607:
